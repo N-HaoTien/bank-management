@@ -1,0 +1,7 @@
+﻿services:
+  bank-management:
+    image: bank-management
+    build:
+      context: .
+      dockerfile: bank-management/Dockerfile
+
